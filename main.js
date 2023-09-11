@@ -1,6 +1,6 @@
 const form = document.getElementById("form")
-const container = document.querySelector(".pokemon-container")
 const input = document.getElementById("pokemon-id")
+const container = document.querySelector(".pokemon-container")
 // ----------------------------------------------------------- // 
 
 
@@ -24,7 +24,6 @@ const fetchPokemon = async (number) => {
             <p class="height">Altura: ${height} m</span>
             <p class="weight">Peso: ${weight} kg</span>
             </div>
-            
             `
         }
         const pokemonTemplate = createPokemonTemplate(name, img, types, height, weight)
